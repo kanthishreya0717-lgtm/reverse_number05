@@ -1,4 +1,6 @@
-num = int(input("Enter a number: "))
+import sys
+
+num = int(sys.argv[1])
 
 reverse = 0
 
